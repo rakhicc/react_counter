@@ -46,7 +46,7 @@ class MainClass extends Component {
     }
     return (
       <main>
-        <p className={circleClass}>{this.state.counter}</p>
+        <p className={circleClass}><p>{this.state.counter}</p></p>
 
         <div className="arraybutton">
           <button onClick={this.addOneHandler}>Add one</button>
